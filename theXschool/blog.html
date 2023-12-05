@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e3dbd45ae.js" crossorigin="anonymous"></script>
+    <title>Lorem School</title>
+</head>
+
+<div class="button-back-to-top">
+    <a href="#header">
+     <i class="fa-solid fa-angle-up"></i> </a>
+</div>
+
+<body>
+
+    <!--------- header ---------->
+
+
+    <div class="button-back-to-top">
+        <a href="#header">
+         <i class="fa-solid fa-angle-up"></i> </a>
+    </div>
+
+    <header id="header" class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="assets/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks" onclick="hideMenu()">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+
+    </header>
+
+    <main>
+
+    <!--------- blog page content ---------->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="assets/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi culpa id harum, sed possimus in nostrum veniam asperiores corporis esse quod ipsum laudantium, repellat debitis velit rerum ut est doloremque? Aliquid iusto pariatur, aspernatur cum totam, eum amet quod, consequuntur qui sed architecto ipsum numquam atque accusantium ducimus quae.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repudiandae in tempora nihil? Fuga quis eveniet sapiente itaque maxime debitis atque error repudiandae tenetur, corporis laborum ipsam, laudantium beatae inventore hic nobis maiores impedit et? Illo vel ullam, excepturi aliquid impedit consequatur obcaecati consectetur odio voluptatibus neque quibusdam dolor amet laudantium earum corrupti ad ipsam omnis eaque nihil molestiae. Praesentium, atque illo nesciunt sequi vitae possimus. Harum optio illo laborum nobis, ipsum nostrum distinctio tempore, quia doloribus qui commodi aut, veniam incidunt dolore magni rem error corporis. Fugit itaque nisi voluptates eum magni repellat quaerat commodi impedit, cupiditate sint minus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem accusantium, minima eligendi possimus tempora alias reprehenderit dolores, at maiores ducimus repellat earum officia quo ad corporis. Ullam architecto fugit laudantium, numquam ipsam cumque voluptates inventore harum optio nihil quia. Excepturi obcaecati placeat similique a fugit tempore quaerat reiciendis iste molestias commodi aliquam dolorem nam, voluptas pariatur eligendi mollitia. Necessitatibus voluptatem, voluptates nemo, in cumque ullam quisquam debitis optio cum maxime voluptas. Voluptatibus neque veniam numquam reprehenderit, similique itaque saepe, corporis adipisci sunt nostrum quos. Et, fugiat. Illum porro aspernatur, esse praesentium enim voluptatem placeat animi repellendus pariatur, dicta voluptas?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium, neque tempore totam ipsam laboriosam, placeat amet excepturi soluta ea numquam provident minima maiores praesentium veritatis temporibus exercitationem distinctio necessitatibus voluptates rem nam quia, hic assumenda. Harum, accusantium? Laborum quisquam maxime ullam vitae neque in asperiores aspernatur nihil rem perspiciatis?</p>
+
+                <dv class="comment-box">
+
+                    <h3>Leave a comment</h3>
+                    
+                    <form class="comment-form" action="">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </dv>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    </main>
+
+    <!--------- Footer ---------->
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, tenetur quae <br> quia distinctio accusamus
+            facilis!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> by thefogx </p>
+
+    </footer>
+
+    <script>
+
+        //-------  js for toggle menu
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>

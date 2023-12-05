@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Facebook Homepage</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-flex-container">
+            <div class="no-content">
+                <a href="http://127.0.0.1:5500/Class_09_Homework/facebook-homepage/"><img class="no-content-img"
+                        src="./../assets/Facebook_Logo_2015.svg" alt="facebook logo"></a>
+            </div>
+            <form method="post" action="">
+                <div class="flex-child">
+                    <div class="flex-grandchild">
+                        <label class="loginLabel" for="loginEmail">Email or phone</label>
+                        <input class="input-style-header" id="loginEmail" type="email||number">
+                    </div>
+                    <div class="flex-grandchild1">
+                        <label class="loginLabel loginStyle" for="loginPass">Password</label>
+                        <input class="input-style-header" id="loginPass" type="password">
+                        <br>
+                        <button id="myButton" class="border-style" type="submit">Log In</button>
+                        <p><a class="link-style" href="">Forgotten account?</a></p>
+                    
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main>
+        
+        <div class="main-container">
+
+
+            <div class="left-page">
+                <div>
+                    <h4 id="mapText">Facebook helps you connect and share with the <br> people in your life.</h4>
+                </div>
+                <div><img id="mapImage" src="./../assets/fb-quote-new-removebg-preview.png" alt=""></div>
+            </div>
+            <form method="post" action="">
+                <div class="right-page">
+
+                    <h1>Create an account</h1>
+                    <p>It's quick and easy.</p>
+                    <input class="sveto-trojstvo" type="text" placeholder="First name"> <input id="surname" class="sveto-trojstvo" type="text" placeholder="Surname">
+                    <input class="input-size sveto-trojstvo" type="email" placeholder="Mobile number or email address">
+                    <input class="input-size sveto-trojstvo" type="password" placeholder="New password" id="psw" required>
+
+                    <label class="brth-gend" id="birthdayStyle" style="display: block;" id="dateOfBirth">Birthday <br>
+                        <select name="dateOfBirth:day">
+                            <option value="">
+                                <!-- -->
+                            </option>
+                            <option value="3">3</option>
+                        </select>
+                        <select name="dateOfBirth:mon">
+                            <option value="">
+                                <!-- -->
+                            </option>
+                            <option value="6">Jun</option>
+                        </select>
+                        <select name="dateOfBirth:year">
+                            <option value="">
+                                <!-- -->
+                            </option>
+                            <option value="1995">1995</option>
+                        </select>
+                        <img src="./../assets/question-mark.png" alt="question mark(explanation)">
+                    </label>
+
+                    <label class="brth-gend" id="genderStyle" style="display: block;" for="gender">Gender</label>
+                    <input id="female" type="radio" name="gender"><label for="female">Female</label>
+                    <input id="male" type="radio" name="gender"><label for="male">Male</label>
+                    <input id="custom" type="radio" name="gender"><label id="custom" for="custom">Custom</label>
+
+                    <img src="./../assets/question-mark.png" alt="question mark(explanation)">
+                    <footer>
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <br> <a
+                                href="#">Cookie Policy</a>.</p>
+                
+                        <div class="button"><button class="border-style">Sign Up</button></div>
+                    </footer>
+                </div>
+
+
+        </div>
+        </form>
+
+    </main>
+
+    
+</body>
+
+</html>
