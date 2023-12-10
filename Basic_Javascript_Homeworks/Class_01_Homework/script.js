@@ -11,9 +11,9 @@ console.log(Math.round(phonePriceWithTax), "$USD per Phone");
 console.log(Math.round(phonesOfferPrice), "$USD in Total");
 
 
-// solution 2
+solution 2
 
-/* function phonePriceCalculator(phonePriceWithTax, phoneQuantity) {
+ function phonePriceCalculator(phonePriceWithTax, phoneQuantity) {
     let result = phonePriceWithTax * phoneQuantity;
     return result;
 }
@@ -21,4 +21,4 @@ console.log(Math.round(phonesOfferPrice), "$USD in Total");
 let phonePrice = 119.95;
 let tax = 5;
 let phoneOfferTotalPrice = phonePriceCalculator((phonePrice + (phonePrice * tax / 100)), 30);
-console.log("Thirty phones cost is", phoneOfferTotalPrice, "$USD in Total"); */
+console.log("Thirty phones cost is", phoneOfferTotalPrice, "$USD in Total"); 

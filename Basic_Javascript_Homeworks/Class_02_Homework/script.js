@@ -5,11 +5,11 @@
 
 
 //     if (formulaValue == 0) {
-//         console.log('Monkey');
+//         console.log('Monkey')
 //     }
 
 //     else if (formulaValue == 1) {
-//         console.log('Rooster');
+//         console.log('Rooster')
 //     }
     
 //     else if (formulaValue == 2) {
@@ -65,48 +65,48 @@
 
 //   solution 2
 
-let yearInput = parseInt(prompt("Enter a year"));
+// let yearInput = parseInt(prompt("Enter a year"));
 
-function chineseZodiacCalculator(yearInput) {
-  switch ((yearInput - 4)% 12) {
-        case 0:
-            return 'Monkey';
-            break;
-        case 1:
-            return 'Rooster';
-            break;
-        case 2:
-            return 'Dog';
-            break;
-        case 3:
-            return 'Pig';
-            break;
-        case 4:
-            return 'Rat';
-            break;
-        case 5:
-            return 'Ox';
-            break;
-        case 6:
-            return 'Tiger';
-            break;
-        case 7:
-            return 'Rabbit';
-            break;
-        case 8:
-            return 'Dragon';
-            break;
-        case 9:
-            return 'Snake';
-            break;
-        case 10:
-            return 'Horse';
-            break;
-        case 11:
-            return 'Sheep';
-            break;
-    }
-}
+// function chineseZodiacCalculator(yearInput) {
+//   switch ((yearInput - 4)% 12) {
+//         case 0:
+//             return 'Monkey';
+//             break;
+//         case 1:
+//             return 'Rooster';
+//             break;
+//         case 2:
+//             return 'Dog';
+//             break;
+//         case 3:
+//             return 'Pig';
+//             break;
+//         case 4:
+//             return 'Rat';
+//             break;
+//         case 5:
+//             return 'Ox';
+//             break;
+//         case 6:
+//             return 'Tiger';
+//             break;
+//         case 7:
+//             return 'Rabbit';
+//             break;
+//         case 8:
+//             return 'Dragon';
+//             break;
+//         case 9:
+//             return 'Snake';
+//             break;
+//         case 10:
+//             return 'Horse';
+//             break;
+//         case 11:
+//             return 'Sheep';
+//             break;
+//     }
+// }
 
-let result = chineseZodiacCalculator(yearInput)
-console.log(`${yearInput} is the year of the ${result}`)
+// let result = chineseZodiacCalculator(yearInput)
+// alert(`${yearInput} is the year of the ${result}`)
