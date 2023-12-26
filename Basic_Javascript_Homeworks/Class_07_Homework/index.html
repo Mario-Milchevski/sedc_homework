@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style>
+        body div{
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
+            gap: 10px;
+            margin: 0 250px;
+        }
+        #button,h2 {
+            width: 100%;
+            text-align: center;
+            background-color: color-mix(in lab, blue 15%, yellow 35%);
+        }
+    </style>
+</head>
+
+<body>
+    <div >
+        <h2 id="h2">Table Generator</h2>
+        <input id="rowInput" type="text" placeholder="Enter rows">
+        <input id="columnInput" type="text" placeholder="Enter columns">
+        <input id="button" type="button" value="Generate" />
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

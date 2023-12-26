@@ -9,9 +9,9 @@ function sumOfNum(array) {
     result += array[i];
     firstDiv.innerHTML += `<li>Num ${i + 1} : ${array[i]}</li>`;
   }
-  firstDiv.innerHTML += `<li>Result: ${result}</li>`;
-  firstDiv.innerHTML += `<li>Equasion: ${array.join(" + ")} = ${result}</li>`;
-  firstDiv.innerHTML += `</ul>`;
+  firstDiv.innerHTML += `<li>Result: ${result}</li>
+                         <li>Equasion: ${array.join(" + ")} = ${result}</li>
+                         </ul>`;
 }
 sumOfNum(arr1);
 
