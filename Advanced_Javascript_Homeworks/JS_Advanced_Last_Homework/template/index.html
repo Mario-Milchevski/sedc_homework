@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Last Homework JSAdv</title>
     <link rel="stylesheet" href="/src/style.css">
 </head>
+
 <body>
-    <h1>Basic level</h1>
-    <table id="basicOutput" class="carsTable" border="2px solid black"></table>
+    <h1>Medium level</h1>
+    <select id="typeFilter">
+        <option value="" selected>Filter by type</option>
+        <option id="" value="suv">SUV</option>
+        <option id="" value="sedan">Sedan</option>
+        <option id="" value="hatchback">Hatchback</option>
+        <option id="" value="convertible">Convertible</option>
+        <option id="" value="truck">Truck</option>
+        <option id="" value="coupe">Coupe</option>
+    </select>
+    <select id="brandFilter">
+        <option value="" selected>Filter by brand</option>
+        <option id="" value="volkswagen">Volkswagen</option>
+        <option id="" value="toyota">Toyota</option>
+        <option id="" value="ford">Ford</option>
+        <option id="" value="bmw">BMW</option>
+        <option id="" value="chevrolet">Chevrolet</option>
+        <option id="" value="mercedes">Mercedes-benz</option>
+        <option id="" value="honda">Honda</option>
+        <option id="" value="nissan">Nissan</option>
+        <option id="" value="hyundai">Hyundai</option>
+        <option id="" value="mazda">Mazda</option>
+        <option id="" value="audi">Audi</option>
+        <option id="" value="kia">Kia</option>
+        <option id="" value="subaru">Subaru</option>
+        <option id="" value="fiat">Fiat</option>
+    </select>
+    <button id="searchBtn">Search</button>
+    <table id="tablePrint" class="carsTable" border="2px solid black">
+        
+    </table>
     <script src="/src/app.js"></script>
 </body>
+
 </html>
