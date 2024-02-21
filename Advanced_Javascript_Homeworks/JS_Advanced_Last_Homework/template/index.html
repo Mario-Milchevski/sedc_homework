@@ -9,37 +9,70 @@
 </head>
 
 <body>
-    <h1>Medium level</h1>
-    <select id="typeFilter">
-        <option value="" selected>Filter by type</option>
-        <option id="" value="suv">SUV</option>
-        <option id="" value="sedan">Sedan</option>
-        <option id="" value="hatchback">Hatchback</option>
-        <option id="" value="convertible">Convertible</option>
-        <option id="" value="truck">Truck</option>
-        <option id="" value="coupe">Coupe</option>
-    </select>
-    <select id="brandFilter">
-        <option value="" selected>Filter by brand</option>
-        <option id="" value="volkswagen">Volkswagen</option>
-        <option id="" value="toyota">Toyota</option>
-        <option id="" value="ford">Ford</option>
-        <option id="" value="bmw">BMW</option>
-        <option id="" value="chevrolet">Chevrolet</option>
-        <option id="" value="mercedes">Mercedes-benz</option>
-        <option id="" value="honda">Honda</option>
-        <option id="" value="nissan">Nissan</option>
-        <option id="" value="hyundai">Hyundai</option>
-        <option id="" value="mazda">Mazda</option>
-        <option id="" value="audi">Audi</option>
-        <option id="" value="kia">Kia</option>
-        <option id="" value="subaru">Subaru</option>
-        <option id="" value="fiat">Fiat</option>
-    </select>
-    <button id="searchBtn">Search</button>
-    <table id="tablePrint" class="carsTable" border="2px solid black">
-        
-    </table>
+    <header><h1>Cars</h1></header>
+    <div class="flex-container">
+        <select id="typeFilter">
+            <option value="" selected>Filter by type</option>
+            <option id="" value="suv">SUV</option>
+            <option id="" value="sedan">Sedan</option>
+            <option id="" value="hatchback">Hatchback</option>
+            <option id="" value="convertible">Convertible</option>
+            <option id="" value="truck">Truck</option>
+            <option id="" value="coupe">Coupe</option>
+        </select>
+
+        <select id="brandFilter">
+            <option value="" selected>Filter by brand</option>
+            <option id="" value="volkswagen">Volkswagen</option>
+            <option id="" value="toyota">Toyota</option>
+            <option id="" value="ford">Ford</option>
+            <option id="" value="bmw">BMW</option>
+            <option id="" value="chevrolet">Chevrolet</option>
+            <option id="" value="mercedes">Mercedes-benz</option>
+            <option id="" value="honda">Honda</option>
+            <option id="" value="nissan">Nissan</option>
+            <option id="" value="hyundai">Hyundai</option>
+            <option id="" value="mazda">Mazda</option>
+            <option id="" value="audi">Audi</option>
+            <option id="" value="kia">Kia</option>
+            <option id="" value="subaru">Subaru</option>
+            <option id="" value="fiat">Fiat</option>
+        </select>
+
+        <input id="modelFilter" type="text" placeholder="model">
+
+        <input type="number" name="" id="doorsFilter" placeholder="doors">
+
+        <select id="gasFilter">
+            <option value="" selected>Filter by Gas Type</option>
+            <option id="" value="petrol">Petrol</option>
+            <option id="" value="diesel">Diesel</option>
+            <option id="" value="gasoline">Gasoline</option>
+            <option id="" value="hybrid">Hybrid</option>
+        </select>
+
+        <input type="text" id="colorFilter" placeholder="color">
+        <div>
+            <label for="newFilter">new</label>
+            <input type="checkbox" id="newFilter">
+        </div>
+        <div>
+            <label for="oldFilter">old</label>
+            <input type="checkbox" id="oldFilter">
+        </div>
+        <div>
+            <label for="hpFilter">Horsepower</label>
+            <input type="range" id="hpFilter" min="66" max="550" step="any" color="red">
+            <output id="hpHtml"></output>
+        </div>
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn">Reset</button>
+
+        <table id="tablePrint" class="carsTable" border="2px solid black">
+        </table>
+        <div id="notification"></div>
+    </div>
+    <footer><p>&copy;Advanced level with bonuses</p></footer>
     <script src="/src/app.js"></script>
 </body>
 
