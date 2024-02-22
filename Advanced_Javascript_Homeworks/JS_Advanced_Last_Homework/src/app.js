@@ -25,10 +25,10 @@ const hpHtml = document.getElementById('hpHtml')
 
 // GET DATA (fetch)
 
-async function getData(url) {
+async function getData() {
     try {
         let response = await fetch(url);
-        data = await response.json();
+        let data = await response.json();
         return data;
     }
     catch (error) {
@@ -124,7 +124,7 @@ function filterData(data) {
 // EVENT LISTENER FUNCTIONS
 
 async function carProgram() {
-    let data = await getData(url);
+    let data = await getData();
     let filteredData = filterData(data);
     if (filteredData.length === 0) {
         table.innerHTML = "";
