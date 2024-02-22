@@ -9,7 +9,7 @@ const url1 = `https://raw.githubusercontent.com/sedc-codecademy/mkwd12-04-ajs/ma
 // Buttons
 const searchBtn = document.getElementById('searchBtn')
 const resetBtn = document.getElementById('resetBtn')
-
+// Filters
 const typeFilter = document.getElementById('typeFilter')
 const brandFilter = document.getElementById('brandFilter')
 const modelFilter = document.getElementById('modelFilter')
