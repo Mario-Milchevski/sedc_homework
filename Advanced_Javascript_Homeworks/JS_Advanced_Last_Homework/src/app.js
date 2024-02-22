@@ -158,7 +158,7 @@ async function reset() {
 
 document.addEventListener('DOMContentLoaded', carProgram)
 searchBtn.addEventListener('click', carProgram)
-resetBtn.addEventListener('click', function () { reset(url) })
+resetBtn.addEventListener('click', reset)
 hpFilter.addEventListener('input', hpRangeValueDisplay)
 
 // All done i guess
